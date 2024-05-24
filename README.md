@@ -33,8 +33,9 @@ ser2net -l -n -c ./test.yaml
 ```sh
 nc 10.66.77.28 4001
 ```
-where 10.66.77.28 is the IP or domain of BB
 
+where 10.66.77.28 is the IP or domain of BB
+Note that: nc require enter to flush the msg through tcp. You should enter after input sothat the msg can be sent
 
 
 
