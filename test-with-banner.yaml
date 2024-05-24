@@ -1,0 +1,13 @@
+#%YAML 1.2  # Use YAML version 2
+
+define: &banner \r\nser2net port \p device \d [\B] (Debian GNU/Linux)\r\n\r\n
+
+connection: &conn0
+  accepter: telnet(rfc2217),tcp,4001
+  enable: on
+  options:
+    max-connections: 4
+    banner: *banner
+    kickolduser: true
+    telnet-brk-on-sync: true
+  connector: serialdev,/dev/ttyUSB0,115200n81,local
