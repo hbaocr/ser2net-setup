@@ -70,3 +70,10 @@ sudo systemctl status ser2net
 ## Reference
 * https://groups.io/g/nodered-hamradio/topic/95857282#10545
 * https://www.youtube.com/watch?v=9jCQMr3tFnI
+* https://github.com/cminyard/ser2net/issues/55
+* https://gist.github.com/DraTeots/e0c669608466470baa6c?permalink_comment_id=3769442
+* CLient Software on WINDOWS
+  * https://www.hw-group.com/software/hw-vsp3-virtual-serial-port
+  * https://tibbo.com/support/downloads/tdst.html
+  * https://www.fabulatech.com/virtual-serial-port-kit-purchase.html
+  * 
