@@ -67,13 +67,16 @@ sudo systemctl status ser2net
 
 ## Software on Window: RFC2217TCP_client to VCOM
 
-Flow
+
+* Overview
+
+```sh
              ---------------------------------------------------                       ----------------------------------
             |                                                  |                      |          Remote PC               |
-PHY_UART--->|  ttyUSB0 <--->Soc Linux (ser2net listen on 4001) |<-----Network<--------| rfc2217(tcp_client) to VCOM      |
+USB_UART--->|  ttyUSB0 <--->Soc Linux (ser2net listen on 4001) |<-----Network<--------| rfc2217(tcp_client) to VCOM      |
             |                                                  |                      |                                  |
              ---------------------------------------------------                       ----------------------------------
-
+```
 
 * OpenSrc and Free:  com0com and hub4com 
 * Paid Software with Trial:
