@@ -65,6 +65,21 @@ sudo systemctl restart ser2net
 sudo systemctl status ser2net
 ```
 
+## Software on Window: RFC2217TCP_client to VCOM
+
+Flow
+             ---------------------------------------------------                       ----------------------------------
+            |                                                  |                      |          Remote PC               |
+PHY_UART--->|  ttyUSB0 <--->Soc Linux (ser2net listen on 4001) |<-----Network<--------| rfc2217(tcp_client) to VCOM      |
+            |                                                  |                      |                                  |
+             ---------------------------------------------------                       ----------------------------------
+
+
+* OpenSrc and Free:  com0com and hub4com 
+* Paid Software with Trial:
+  * [Serial to Ethernet Connector](https://www.serial-over-ethernet.com/downloads/)
+  
+
 
 
 ## Reference
