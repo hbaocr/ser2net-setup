@@ -83,8 +83,8 @@ USB_UART--->|  ttyUSB0 <--->Soc Linux (ser2net listen on 4001) |<-----Network<--
 * Paid Software with Trial:
   * [Serial to Ethernet Connector](https://www.serial-over-ethernet.com/downloads/)
   * [HW VSP3 - Virtual Serial Port](https://www.hw-group.com/software/hw-vsp3-virtual-serial-port)
-    * Single port- free
-    * Multiple port -Charge fee
+    * Client-Server Application (Single port- free)
+    * Standalone Application (Multiple port -Charge fee)
   
 
 
