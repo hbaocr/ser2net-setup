@@ -79,7 +79,8 @@ USB_UART--->|  ttyUSB0 <--->Soc Linux (ser2net listen on 4001) |<-----Network<--
 ```
 
 * OpenSrc and Free:
-  * CMD line tool: com0com and hub4com 
+  * CMD line tool: com0com and hub4com
+  * GUI Tool: [USR-VCOM(Virtual Serial Software V3.7.2.525)](https://www.pusr.com/support/downloads/usr-vcom-virtual-serial-software.html)
 * Paid Software with Trial:
   * [Serial to Ethernet Connector](https://www.serial-over-ethernet.com/downloads/)
   * [HW VSP3 - Virtual Serial Port](https://www.hw-group.com/software/hw-vsp3-virtual-serial-port)
