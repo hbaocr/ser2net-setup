@@ -3,8 +3,9 @@
 ## Install ser2net
 * Install
 ```sh
-sudo apt-get -y install ser2net
 sudo apt-get -y libyaml-dev libgensio-dev
+sudo apt-get -y install ser2net
+
 ```
 * configure file `test.yaml`
 ```
